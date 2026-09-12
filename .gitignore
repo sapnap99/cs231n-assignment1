@@ -1,0 +1,25 @@
+# Local environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Downloaded datasets and intermediate artifacts
+cs231n/datasets/cifar-10-batches-py/
+cs231n/datasets/*.tar.gz
+cs231n/datasets/*.part
+cs231n/datasets/*.npz
+tmp/
+*_preview.png
+
+# Local credentials and operating-system files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store
